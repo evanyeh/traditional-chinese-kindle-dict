@@ -1,0 +1,86 @@
+<html xmlns:math="http://exslt.org/math" xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:tl="https://kindlegen.s3.amazonaws.com/AmazonKindlePublishingGuidelines.pdf"
+      xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:cx="https://kindlegen.s3.amazonaws.com/AmazonKindlePublishingGuidelines.pdf"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:mbp="https://kindlegen.s3.amazonaws.com/AmazonKindlePublishingGuidelines.pdf"
+      xmlns:mmc="https://kindlegen.s3.amazonaws.com/AmazonKindlePublishingGuidelines.pdf"
+      xmlns:idx="https://kindlegen.s3.amazonaws.com/AmazonKindlePublishingGuidelines.pdf">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+      h5 {
+          font-size: 1em;
+          margin: 0;
+      }
+
+      /* for each title (searched character or phrase) */
+      dt {
+          font-weight: bold;
+      }
+
+      /* for each single character heteronym definition */
+      dd {
+          margin: 0;
+          padding: 0 0 0 1em;
+          display: block
+      }
+
+      /* for each 'p'hrase heteronym definition (i.e. not single character)*/
+      dp {
+          margin: 0;
+          padding: 0 0 0.5em 0
+      }
+
+      /* for each heteronym */
+      dh {
+          margin: 0;
+          padding: 0 0 0.5em 0;
+          display: block
+      }
+
+      /* for each 's'ection of an entry like 相似詞，相反詞，釋義 */
+      ds {
+          text-decoration: underline;
+      }
+      
+      /* for general unindented text */
+      p {
+          margin: 0em 0em 0em 1em;
+          padding: 0em 0em 0em 0em;
+      }
+
+      /* override and zero out ordered list padding */
+      ol {
+          margin: 0;
+          padding: 0 0 0 0;
+      }
+
+      /* for heteronyms with ordered definitions and non-ordered definitions,
+      use bullet point style so we can mix and match in same <ol> */
+      /* li.bulletstyle {
+        list-style-type: disc;
+      } */
+
+      /* for heteronyms with only 1 definition, use none as the list style
+      so we can still have consistent indenting as other lists */
+      /* li.nostyle {
+        list-style-type: none;
+      } */
+
+      /* override and zero out unordered list padding unused*/
+      ul {
+          margin: 0;
+          padding: 0 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <mbp:framset>
+      
+    @BODY
+    
+    </mbp:framset>
+  </body>
+</html>
